@@ -2,6 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Remember to make a check on input
+
         try {
             factorial(Integer.parseInt(args[2]));
         } catch (NumberFormatException e) {
