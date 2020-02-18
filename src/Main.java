@@ -15,9 +15,9 @@ public class Main {
     }
 
     public static void factorial (Integer n) {
-
         for (int i=1; i<=10; i++) {
-            System.out.println(n + " times " + i + " is equal to " + n*i);
+            int result = n*i;
+            System.out.println(n + " times " + i + " is equal to " + result);
         }
 
 
