@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Remember to make a check on input
+        //okay
 
         try {
             factorial(Integer.parseInt(args[2]));
